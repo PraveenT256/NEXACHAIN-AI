@@ -34,6 +34,7 @@ export default function LoginPage() {
       <form className="auth-card" onSubmit={handleSubmit}>
         <h1 className="auth-title">Welcome back</h1>
         <p className="auth-subtitle">Log in to your investment dashboard</p>
+        <p className="auth-subtitle">Demo mode: any email/password logs you into a sample account.</p>
 
         {errorMessage && <div className="alert-error">{errorMessage}</div>}
 

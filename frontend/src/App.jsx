@@ -9,6 +9,9 @@ import DashboardPage from "./pages/DashboardPage";
 export default function App() {
   return (
     <div className="app-shell">
+      <div className="demo-mode-banner">
+        Demo mode — sample data only, no real backend, payments, or accounts.
+      </div>
       <Navbar />
       <main className="app-main">
         <Routes>
